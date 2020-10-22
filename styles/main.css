@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
+}
+
+.parallax {
+  background-image: url(https://picsum.photos/id/1048/5616/3744);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-transform: uppercase;
+  font-size: medium;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem 1rem;
+}
+
+.section {
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  font-size: 0.8rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  padding: 1rem;
+}
+
+.parallax-2 {
+  background-image: url(https://picsum.photos/id/178/2592/1936);
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-3 {
+  background-image: url(https://picsum.photos/id/1054/3079/1733);
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-4 {
+  background-image: url(https://picsum.photos/id/238/2560/1440);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-2 .text,
+.parallax-3 .text {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: capitalize;
+}
